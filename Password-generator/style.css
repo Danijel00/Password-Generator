@@ -111,3 +111,14 @@ body{
 .generate:focus{
     outline: none;
 }
+
+@media screen and (max-width: 500px){
+    .pass-container{
+        min-width: 320px;
+    }
+}
+@media screen and (max-width: 281px){
+    .pass-container{
+        min-width: 280px;
+    }
+}
